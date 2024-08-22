@@ -1,0 +1,39 @@
+:root {
+    --primary : #3887ff;
+    --body-bg : #1b1b1b;
+    --body-text : #fff;
+    --mono-100 : #e6e6e6; /* 메뉴글자 hover */
+    --mono-200 : #a5a5a5; /* 메뉴글자색 */
+    --mono-300 : #717171;
+    --mono-400 : #2f2f2f;
+    --mono-500 : #252525;
+    --max-size : 1240px;
+    --text-gnb : 18px;
+    --text-title : 24px;
+    --text-description : 14px;
+}
+
+body {
+    font-family: 'Noto Sans Kr', sans-serif;
+    background-color: var(--body-bg);
+    color: var(--body-text);
+}
+
+.inner {
+    width: 100%;
+    max-width: var(--max-size);
+    margin: 0 auto;
+    /* outline: 1px solid red; */
+
+}
+
+/* 
+    1. 파일, 폴더 규칙세우고 생성해놓기
+    2. 웹폰트 연결
+    3. css 변수, reset 설정 
+*/
+
+/* svg 코드의 색 변경 */
+/* .ico {
+    fill: #fff;
+} */
